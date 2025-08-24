@@ -1,0 +1,208 @@
+[0.118s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/gopal/bumperbot_ws', '--log-base', '/dev/null']
+[0.118s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/gopal/bumperbot_ws', '--log-base', '/dev/null'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70bc40e7d450>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x70bc40e7c460>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x70bc40e7c460>>, mixin_verb=('list',))
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.343s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gopal/bumperbot_ws', '/home/gopal/bumperbot_ws/--log-base', '/dev/null'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/build) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/build) ignored
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/install) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/install) ignored
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/log) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/log) ignored
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_bringup) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_bringup) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_bringup) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_bringup) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_bringup) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_bringup) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_bringup) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_bringup) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_bringup' with type 'ros.ament_cmake' and name 'bumperbot_bringup'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_controller) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_controller) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_controller) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_controller) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_controller) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_controller) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_controller) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_controller) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_controller' with type 'ros.ament_cmake' and name 'bumperbot_controller'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_cpp_examples) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_cpp_examples) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_cpp_examples) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_cpp_examples) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_cpp_examples) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_cpp_examples) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_cpp_examples) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_cpp_examples) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_cpp_examples' with type 'ros.ament_cmake' and name 'bumperbot_cpp_examples'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_description) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_description) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_description) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_description) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_description) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_description) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_description) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_description) by extension 'ros'
+[0.378s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_description' with type 'ros.ament_cmake' and name 'bumperbot_description'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_firmware) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_firmware) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_firmware) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_firmware) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_firmware) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_firmware) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_firmware) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_firmware) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_firmware' with type 'ros.ament_cmake' and name 'bumperbot_firmware'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extension 'ros'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extensions ['cmake', 'python']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extension 'cmake'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extension 'python'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extensions ['python_setup_py']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware) by extension 'python_setup_py'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extension 'ros'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extensions ['cmake', 'python']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extension 'cmake'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extension 'python'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extensions ['python_setup_py']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/3D Print) by extension 'python_setup_py'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_hardware/CAD) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_localization) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_localization) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_localization) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_localization) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_localization) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_localization) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_localization) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_localization) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_localization' with type 'ros.ament_cmake' and name 'bumperbot_localization'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_mapping) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_mapping) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_mapping) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_mapping) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_mapping) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_mapping) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_mapping) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_mapping) by extension 'ros'
+[0.405s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_mapping' with type 'ros.ament_cmake' and name 'bumperbot_mapping'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_motion) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_motion) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_motion) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_motion) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_motion) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_motion) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_motion) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_motion) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_motion' with type 'ros.ament_cmake' and name 'bumperbot_motion'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_msgs) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_msgs) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_msgs) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_msgs) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_msgs) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_msgs) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_msgs) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_msgs) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_msgs' with type 'ros.ament_cmake' and name 'bumperbot_msgs'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_navigation) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_navigation) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_navigation) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_navigation) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_navigation) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_navigation) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_navigation) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_navigation) by extension 'ros'
+[0.410s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_navigation' with type 'ros.ament_cmake' and name 'bumperbot_navigation'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_planning) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_planning) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_planning) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_planning) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_planning) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_planning) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_planning) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_planning) by extension 'ros'
+[0.413s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_planning' with type 'ros.ament_cmake' and name 'bumperbot_planning'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_py_examples) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_py_examples) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_py_examples) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_py_examples) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_py_examples) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_py_examples) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_py_examples) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gopal/bumperbot_ws/src/bumperbot_py_examples) by extension 'ros'
+[0.415s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gopal/bumperbot_ws/src/bumperbot_py_examples' with type 'ros.ament_python' and name 'bumperbot_py_examples'
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

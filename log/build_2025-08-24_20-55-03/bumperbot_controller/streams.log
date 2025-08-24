@@ -1,0 +1,77 @@
+[0.009s] Invoking command in '/home/gopal/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gopal/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.132s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.132s] [ 33%] [32mBuilding CXX object CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o[0m
+[0.133s] [ 50%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.139s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.381s] running egg_info
+[0.382s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.382s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.382s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.385s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.386s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.406s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[7.845s] [ 66%] [32m[1mLinking CXX executable noisy_controller[0m
+[8.356s] [ 66%] Built target noisy_controller
+[9.944s] [ 83%] [32m[1mLinking CXX executable twist_relay[0m
+[10.406s] [ 83%] Built target twist_relay
+[11.160s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[11.648s] [100%] Built target simple_controller
+[11.656s] Invoked command in '/home/gopal/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gopal/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[11.664s] Invoking command in '/home/gopal/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gopal/bumperbot_ws/build/bumperbot_controller
+[11.671s] -- Install configuration: ""
+[11.671s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[11.672s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[11.698s] Listing '/home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[11.698s] Compiling '/home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...
+[11.698s] Compiling '/home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py'...
+[11.698s] Compiling '/home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[11.698s] Compiling '/home/gopal/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py'...
+[11.702s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/include/include
+[11.702s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[11.702s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[11.702s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[11.702s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[11.705s] -- Set runtime path of "/home/gopal/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[11.705s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[11.707s] -- Set runtime path of "/home/gopal/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+[11.707s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay
+[11.710s] -- Set runtime path of "/home/gopal/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay" to ""
+[11.710s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[11.710s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[11.710s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[11.710s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[11.710s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[11.711s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[11.711s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[11.711s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[11.711s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[11.711s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[11.711s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[11.711s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[11.711s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+[11.712s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[11.712s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[11.712s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[11.712s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[11.712s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[11.713s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[11.713s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[11.713s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[11.713s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[11.713s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[11.713s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[11.713s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[11.713s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[11.713s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[11.714s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[11.715s] Invoked command in '/home/gopal/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gopal/bumperbot_ws/build/bumperbot_controller

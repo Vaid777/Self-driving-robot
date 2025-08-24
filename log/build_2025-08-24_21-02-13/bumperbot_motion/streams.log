@@ -1,0 +1,59 @@
+[0.007s] Invoking command in '/home/gopal/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gopal/bumperbot_ws/build/bumperbot_motion -- -j8 -l8
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target pd_motion_planner[0m
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target pure_pursuit[0m
+[0.082s] [  0%] Built target ament_cmake_python_copy_bumperbot_motion
+[0.085s] [ 50%] Built target pure_pursuit
+[0.089s] [100%] Built target pd_motion_planner
+[0.334s] running egg_info
+[0.335s] writing bumperbot_motion.egg-info/PKG-INFO
+[0.335s] writing dependency_links to bumperbot_motion.egg-info/dependency_links.txt
+[0.335s] writing top-level names to bumperbot_motion.egg-info/top_level.txt
+[0.338s] reading manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[0.339s] writing manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[0.378s] [100%] Built target ament_cmake_python_build_bumperbot_motion_egg
+[0.392s] Invoked command in '/home/gopal/bumperbot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gopal/bumperbot_ws/build/bumperbot_motion -- -j8 -l8
+[0.394s] Invoking command in '/home/gopal/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gopal/bumperbot_ws/build/bumperbot_motion
+[0.401s] -- Install configuration: ""
+[0.402s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.sh
+[0.402s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.dsv
+[0.402s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion-0.0.0-py3.10.egg-info
+[0.402s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion-0.0.0-py3.10.egg-info/top_level.txt
+[0.402s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.403s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.403s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion-0.0.0-py3.10.egg-info/PKG-INFO
+[0.403s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion
+[0.403s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion/pd_motion_planner.py
+[0.403s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion/pure_pursuit.py
+[0.403s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion/__init__.py
+[0.438s] Listing '/home/gopal/bumperbot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion'...
+[0.444s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/motion_planner_plugins.xml
+[0.444s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/lib/libpd_motion_planner.so
+[0.445s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/lib/libpure_pursuit.so
+[0.445s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/include/include
+[0.446s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion
+[0.446s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pure_pursuit.hpp
+[0.446s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pd_motion_planner.hpp
+[0.446s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pd_motion_planner.py
+[0.446s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pure_pursuit.py
+[0.446s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/library_path.sh
+[0.446s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/library_path.dsv
+[0.446s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/package_run_dependencies/bumperbot_motion
+[0.446s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/parent_prefix_path/bumperbot_motion
+[0.446s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.sh
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.dsv
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.sh
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.dsv
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.bash
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.sh
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.zsh
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.dsv
+[0.447s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.dsv
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/packages/bumperbot_motion
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_motion
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_libraries-extras.cmake
+[0.447s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.448s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig.cmake
+[0.448s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig-version.cmake
+[0.448s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.xml
+[0.450s] Invoked command in '/home/gopal/bumperbot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gopal/bumperbot_ws/build/bumperbot_motion

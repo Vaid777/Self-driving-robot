@@ -1,0 +1,69 @@
+[0.007s] Invoking command in '/home/gopal/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gopal/bumperbot_ws/build/bumperbot_planning -- -j8 -l8
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target dijkstra_planner[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target a_star_planner[0m
+[0.097s] [ 25%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[0.098s] [ 25%] Built target ament_cmake_python_copy_bumperbot_planning
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+[0.373s] running egg_info
+[0.374s] writing bumperbot_planning.egg-info/PKG-INFO
+[0.375s] writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+[0.375s] writing top-level names to bumperbot_planning.egg-info/top_level.txt
+[0.386s] reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.387s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.421s] [ 50%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[10.495s] [ 75%] [32m[1mLinking CXX shared library libdijkstra_planner.so[0m
+[11.201s] [ 75%] Built target dijkstra_planner
+[11.944s] [100%] [32m[1mLinking CXX shared library liba_star_planner.so[0m
+[12.352s] [100%] Built target a_star_planner
+[12.360s] Invoked command in '/home/gopal/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gopal/bumperbot_ws/build/bumperbot_planning -- -j8 -l8
+[12.362s] Invoking command in '/home/gopal/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gopal/bumperbot_ws/build/bumperbot_planning
+[12.367s] -- Install configuration: ""
+[12.368s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh
+[12.368s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv
+[12.368s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info
+[12.368s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/top_level.txt
+[12.368s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.368s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.368s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/PKG-INFO
+[12.368s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning
+[12.369s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/a_star_planner.py
+[12.369s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/dijkstra_planner.py
+[12.369s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/__init__.py
+[12.400s] Listing '/home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning'...
+[12.400s] Compiling '/home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/__init__.py'...
+[12.400s] Compiling '/home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/a_star_planner.py'...
+[12.400s] Compiling '/home/gopal/bumperbot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/dijkstra_planner.py'...
+[12.405s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+[12.406s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/lib/libdijkstra_planner.so
+[12.407s] -- Set runtime path of "/home/gopal/bumperbot_ws/install/bumperbot_planning/lib/libdijkstra_planner.so" to ""
+[12.407s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/lib/liba_star_planner.so
+[12.409s] -- Set runtime path of "/home/gopal/bumperbot_ws/install/bumperbot_planning/lib/liba_star_planner.so" to ""
+[12.409s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/include/include
+[12.409s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning
+[12.409s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+[12.409s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/a_star_planner.hpp
+[12.409s] -- Up-to-date: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+[12.409s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner.py
+[12.409s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+[12.410s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.sh
+[12.410s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.dsv
+[12.410s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[12.410s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[12.410s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[12.410s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[12.411s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[12.411s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[12.411s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[12.411s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[12.412s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[12.412s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[12.412s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[12.412s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[12.412s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_planning
+[12.412s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.412s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_libraries-extras.cmake
+[12.413s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.413s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[12.413s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[12.413s] -- Installing: /home/gopal/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[12.416s] Invoked command in '/home/gopal/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gopal/bumperbot_ws/build/bumperbot_planning

@@ -1,0 +1,10 @@
+bumperbot_ws/build
+bumperbot_ws/devel
+bumperbot_ws/install
+bumperbot_ws/log*
+bumperbot_ws/.vscode
+bumperbot_ws/.catkin_workspace
+.vscode
+.vscode/browse.vc.db
+**/__pycache__/
+*.pyc
